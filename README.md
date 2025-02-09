@@ -54,13 +54,17 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ### Environment Variables
-# Create a .env file in the root directory and add the following information:
+
+Create a .env file in the root directory and add the following information:
+
 OPENAI_API_KEY=your_openai_api_key
 
-### Running the Chatbot
+### 🔹 Running the Chatbot
 python app.py
+
 
 
 
